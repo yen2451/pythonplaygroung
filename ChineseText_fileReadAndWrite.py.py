@@ -5,4 +5,5 @@
 f1=open("chinesetext.txt",'r',1,encoding='utf8')
 tex=f1.readlines()
 f1.close()
-print(tex)
+for i in tex:
+    print(i.strip())
